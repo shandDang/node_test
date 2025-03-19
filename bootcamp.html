@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부트캠프 비교</title>
+  <style>
+    *{
+      user-select: none;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+    }
+    
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    
+    table {
+      border: solid 1px #ddd;
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 900px;
+      margin-bottom: 20px;
+    }
+    
+    th, td {
+      border: solid 1px #ddd;
+      padding: 12px 15px;
+      text-align: center;
+    }
+    
+    th {
+      background-color: #f5f5f5;
+      font-weight: bold;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .campName {
+      color: green;
+      font-weight: bold;
+    }
+    
+    #boot {
+      width: auto;
+      height: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>부트캠프 비교, 표만들기 복습</h1>
+  <table id="boot">
+    <tr>
+      <th>부트캠프 이름</th>
+      <th>기간</th>
+      <th>내용</th>
+      <th>메리트</th>
+    </tr>
+    <tr>
+      <th class="campName">sprint(code it)</th>
+      <td>2025-03-20 ~ 2025-10-17</td>
+      <td>Java, Spring, Git</td>
+      <td>이력서 작성 가이드, 기업분석, 1:1 첨삭피드백, 모의면접, 코드리뷰, 멘토링까지</td>
+    </tr>
+    
+    <tr>
+      <th class="campName">programmers</th>
+      <td>2025-04-03 ~ 2025-10-02</td>
+      <td>내용</td>
+      <td>AI활용, frontEnd과정 존재</td>
+    </tr>
+    
+    <tr>
+      <th class="campName">sparta</th>
+      <td>2025-04-07 ~ 2025-08-27</td>
+      <td>09:00 ~ 21:00, Java, Spring</td>
+      <td>매달 31만원</td>
+    </tr>
+
+    <tr>
+      <th class="campName">it will</th>
+      <td>2025-03-06 ~ 2025-08-27</td>
+      <td>09:00 ~ 18:30</td>
+      <td>Java, Spring, HTML, CSS, JavaScript,React</td>
+    </tr>
+
+  </table>
+</body>
+</html>
